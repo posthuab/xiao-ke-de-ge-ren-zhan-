@@ -1,0 +1,80 @@
+body, html {  
+    height: 100%;  
+    margin: 0;  
+    font-family: 'Arial', sans-serif;  
+    color: #333; /* 基础文字颜色 */  
+    background-color: #f2f2f2; /* 基础背景颜色 */  
+    overflow-x: hidden; /* 防止水平滚动 */  
+}  
+  
+.background-overlay {  
+    background: url('./../前端图片文件/神里绫华&八重神子横版.mp4') no-repeat center center fixed;  
+    background-size: cover;  
+    width: 100%;  
+    height: 100%;  
+    position: fixed;  
+    z-index: -1;  
+}  
+  
+.resume-container {  
+    width: 85%; /* 调整宽度以适应内容 */  
+    max-width: 1200px; /* 设置最大宽度以避免过宽 */  
+    margin: 0 auto;  
+    padding: 60px; /* 增加内边距以增强可读性 */  
+    box-sizing: border-box; /* 包含内边距和边框在元素宽度内 */  
+    background-color: #fff; /* 纯白色背景 */  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* 阴影效果 */  
+    position: relative; /* 相对于自身定位 */  
+    z-index: 1; /* 确保在背景图片之上 */  
+}  
+  
+.section-title {  
+    font-size: 22px;  
+    font-weight: bold; /* 加粗标题 */  
+    margin-bottom: 15px; /* 增加底部间距 */  
+    color: #222; /* 加深标题颜色 */  
+}  
+  
+.profile-section {  
+    text-align: center;  
+    margin-bottom: 40px; /* 增加底部间距 */  
+}  
+  
+.profile-image img {  
+    width: 200px; /* 放大头像 */  
+    height: 200px;  
+    border-radius: 50%;  
+    object-fit: cover;  
+    margin-bottom: 20px; /* 增加底部间距 */  
+}  
+  
+.profile-info h1 {  
+    font-size: 32px; /* 放大名字 */  
+    margin: 0;  
+    color: #111; /* 更深的颜色以突出 */  
+}  
+  
+.profile-info p {  
+    font-size: 16px;  
+    margin: 0;  
+    color: #666; /* 较浅的颜色 */  
+}  
+  
+.summary-section p,  
+.experience-section p,  
+.education-section p,  
+.contact-section p {  
+    line-height: 1.6; /* 调整行高以增强可读性 */  
+    color: #555; /* 适中的灰色 */  
+}  
+  
+.experience-item,  
+.education-item {  
+    margin-bottom: 30px; /* 每项之间增加间距 */  
+}  
+  
+.contact-section {  
+    margin-top: 40px; /* 增加顶部间距以区分区块 */  
+}  
+  
+/* 你可以继续添加更多样式来优化其他部分的布局和外观 */
