@@ -20,28 +20,28 @@ body, html {
     width: 85%; /* 调整宽度以适应内容 */  
     max-width: 1200px; /* 设置最大宽度以避免过宽 */  
     margin: 0 auto;  
-    padding: 60px; /* 增加内边距以增强可读性 */  
-    box-sizing: border-box; /* 包含内边距和边框在元素宽度内 */  
+    padding: 60px; 
+    box-sizing: border-box;  
     background-color: #fff; /* 纯白色背景 */  
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* 阴影效果 */  
-    position: relative; /* 相对于自身定位 */  
-    z-index: 1; /* 确保在背景图片之上 */  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  
+    position: relative;   
+    z-index: 1;  
 }  
   
 .section-title {  
     font-size: 22px;  
-    font-weight: bold; /* 加粗标题 */  
-    margin-bottom: 15px; /* 增加底部间距 */  
-    color: #222; /* 加深标题颜色 */  
+    font-weight: bold;   
+    margin-bottom: 15px;  
+    color: #222;   
 }  
   
 .profile-section {  
     text-align: center;  
-    margin-bottom: 40px; /* 增加底部间距 */  
+    margin-bottom: 40px; 
 }  
   
 .profile-image img {  
-    width: 200px; /* 放大头像 */  
+    width: 200px; 
     height: 200px;  
     border-radius: 50%;  
     object-fit: cover;  
